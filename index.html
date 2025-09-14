@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PT Manika Presisi Plastik</title>
+  <link rel="icon" href="assets/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">Manika Presisi Plastik</div>
+      <nav class="nav" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Beranda</a></li>
+          <li><a href="#about" class="nav-link">Tentang Kami</a></li>
+          <li><a href="#products" class="nav-link">Produk</a></li>
+          <li><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="container hero-container">
+    <div class="hero-text">
+      <h1 id="hero-title">Precise and Quality Plastic Packaging Solutions for Your Industry</h1>
+      <p id="hero-description">PT Manika Presisi Plastik menyediakan botol, tutup, dan jerigen berkualitas untuk kebutuhan kemasan Anda.</p>
+      <a href="#products" class="btn btn-primary">Lihat Produk Kami</a>
+    </div>
+
+    <div class="hero-slideshow">
+      <div class="slides">
+        <div class="slide active">
+          <img src="assets/slogan1.jpg" alt="Produk plastik packaging 1" />
+          <div class="slide-caption">
+            <h3>Inovasi dalam Setiap Produk</h3>
+            <p>Botol, tutup, dan jerigen yang tahan lama</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="assets/slogan2.jpg" alt="Produk plastik packaging 2" />
+          <div class="slide-caption">
+            <h3>Mitra Terpercaya Kemasan Plastik</h3>
+            <p>Mendukung bisnis Anda dengan solusi kemasan terbaik</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="assets/slogan3.jpg" alt="Produk plastik packaging 3" />
+          <div class="slide-caption">
+            <h3>Kualitas Terjaga, Kepuasan Terjamin</h3>
+            <p>Kualitas terbaik untuk kebutuhan industri Anda</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="assets/slogan4.jpg" alt="Produk plastik packaging 4" />
+          <div class="slide-caption">
+            <h3>Inovasi Teknik untuk Kemasan Plastik Berkualitas</h3>
+            <p>Mewujudkan Kemasan Plastik Presisi dengan Engineering Terbaik</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="assets/slogan5.jpg" alt="Produk plastik packaging 5" />
+          <div class="slide-caption">
+            <h3>Produksi Cepat, Kualitas Tetap Terjaga</h3>
+            <p>Mengutamakan kepuasan pelanggan dengan memberikan produk yang berkualitas dan tepat waktu</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-controls">
+        <button class="prev" aria-label="Slide sebelumnya">&#10094;</button>
+        <button class="next" aria-label="Slide berikutnya">&#10095;</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Products Section -->
+  <section id="products" class="products section">
+  <div class="container">
+    <h2 class="section-title">Produk Kami</h2>
+    <p class="section-subtitle">Berbagai produk plastik packaging khususnya botol, tutup, dan jerigen</p>
+    <div class="products-grid">
+      <a href="product-detail.html?id=produk1" class="product-card">
+        <img src="assets/botol2.jpg" alt="Botol Plastik" />
+        <h3>Botol</h3>
+        <p>Botol plastik berkualitas dengan berbagai ukuran dan desain sesuai kebutuhan.</p>
+      </a>
+      <a href="product-detail.html?id=produk2" class="product-card">
+        <img src="assets/tutup.jpg" alt="Tutup Plastik" />
+        <h3>Tutup</h3>
+        <p>Tutup botol presisi yang aman dan mudah digunakan untuk berbagai jenis botol.</p>
+      </a>
+      <a href="product-detail.html?id=produk3" class="product-card">
+        <img src="assets/jerigen.jpg" alt="jerigen Plastik" />
+        <h3>jerigen</h3>
+        <p>jerigen plastik tahan lama untuk penyimpanan dan pengiriman cairan industri.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2 class="section-title">Kontak Kami</h2>
+      <p class="section-subtitle">Hubungi kami untuk informasi lebih lanjut</p>
+      <div class="contact-content">
+        <form id="contact-form" class="contact-form" novalidate>
+          <label for="name">Nama Lengkap</label>
+          <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Masukkan email" required />
+
+          <label for="message">Pesan</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        </form>
+        <div class="contact-info">
+            <h3>Informasi Kontak</h3>
+                <p><strong>Alamat:</strong> Jln. Raya Jakarta – Bogor Km 51,5
+                                            Desa Cimandala
+                                            Kec. Sukaraja
+                                            Kab Bogor 16710
+                                            Jawa Barat - Indonesia </p>
+                                  <p><strong>Telepon:</strong> 0251.865214</p>
+                                  <p><strong>Email:</strong> info@manikaplastik.co.id</p>
+
+                                  <!-- Tambahkan WhatsApp -->
+                                  <p>
+                                  <strong>WhatsApp Marketing: KRISNA </strong>
+                                      <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="whatsapp-link" aria-label="Chat WhatsApp Marketing">
+                                        <img src="assets/whatsapp-logo.png" alt="WhatsApp Logo" class="whatsapp-logo" />
+                                          +62 815-1388-6882
+                                      </a>
+                                  </p>
+
+          <div class="social-links">
+             <a href="#" aria-label="Facebook" class="social-link">FB</a>
+             <a href="#" aria-label="Instagram" class="social-link">IG</a>
+             <a href="#" aria-label="LinkedIn" class="social-link">IN</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© 2025 PT Manika Presisi Plastik. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook" class="social-link">FB</a>
+        <a href="#" aria-label="Instagram" class="social-link">IG</a>
+        <a href="#" aria-label="LinkedIn" class="social-link">IN</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
